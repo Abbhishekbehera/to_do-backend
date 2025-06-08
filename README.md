@@ -1,23 +1,25 @@
-📝 To-Do List App - Backend
-This is the backend server for the To-Do List App, built using Node.js, Express.js, and MongoDB. It provides a RESTful API to manage to-do tasks — including creating, reading, updating, and deleting tasks.
+This repository contains the backend implementation for the To-Do List Application, developed using Node.js, Express.js, and MongoDB. It provides a robust and scalable RESTful API for managing tasks, enabling full CRUD (Create, Read, Update, Delete) functionality.
+--------------------------------------------------------------------------
+✅ Key Features =>
 
-🚀 Features :
-Create a new to-do item
+Create, read, update, and delete to-do items
 
-Get all to-do items
+RESTful API design following best practices
 
-Update the status or name of a task
+MongoDB integration with Mongoose ODM
 
-Delete a task
+Modular and maintainable code structure (MVC architecture)
 
-Clean and modular code structure using MVC pattern
+Environment-based configuration using .env
 
-MongoDB for database storage
+CORS-enabled for seamless frontend integration
+--------------------------------------------------------------------------
+🛠️ Technology Stack =>
 
+Runtime: Node.js
 
-🔧 Tech Stack :
-Backend: Node.js, Express.js
+Framework: Express.js
 
-Database: MongoDB (with Mongoose)
+Database: MongoDB (via Mongoose)
 
-Tools: Nodemon, dotenv
+Dev Tools: Nodemon, dotenv
